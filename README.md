@@ -51,3 +51,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+Requirements#
+
+**PHP : 5.6+
+**Laravel : 5.2+
+**Mysql
+**Redis
+Installation#
+
+git clone https://github.com/iScript/YCms.git
+cd YCms
+chmod -R 777 storage/
+composer install
+cp .env.example .env && vim .env
+php artisan migrate
+php artisan db:seed
+php artisan serve
+UserName: admin
+password: 123456
+Page Preview#
+
+
+
+
+
